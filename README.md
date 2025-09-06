@@ -1,1 +1,1 @@
-# my-friends-projict
+# my-friends-project
