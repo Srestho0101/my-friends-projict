@@ -4,29 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>our friend circle</title>
-  <link rel="stylesheet" href="opu.css" />
+  <link rel="stylesheet" href="../css/shoan.css" />
 </head>
 <body>
   <nav>
-    <a href="home-page.html">Home</a>
-    <a href="index.html">My Friends</a>
-    <a href="About-me.html">My info</a>
+    <a href="../home-page.html">Home</a>
+    <a href="../index.html">My Friends</a>
+    <a href="../About-me.html">My info</a>
   </nav>
 
   <div class="shoan">
     <div class="shoan-img">
-      <img src="badhon.jpg" id="shoan-img" alt="Badhon Image" />
+      <img src="../photos/sameul.jpg" id="shoan-img" alt="Sameul Image" />
     </div>
 
     <div class="links">
-      <a href="https://www.facebook.com/share/1AfgkUFBG7/">
+      <a href="https://www.facebook.com/share/1Azmv5sAVP/">
         <button>Facebook ID ></button>
       </a>
     </div>
 
     <div class="typing-container">
       <p>
-        My name is Badhon. I love football and Free Fire.<br />
+        My name is Sameul. I love football and Free Fire.<br />
         I am fast and skilled on the football field.<br />
         In Free Fire, I always try my best to win.<br />
         Playing both keeps me happy and active.
@@ -34,10 +34,10 @@
     </div>
 
     <div class="contact">
-      <p>Name: Badhon</p>
-      <p>Number: +8801812054895</p>
-      <p>WhatsApp: +8801812054895</p>
-      <p>Email: imalexfan934@gmail.com</p>
+      <p>Name: Sameul</p>
+      <p>Number: +880 xxxxxxx</p>
+      <p>WhatsApp: +880 xxxxxx</p>
+      <p>Email: xxxxxxxx@gmail.com</p>
     </div>
 
     <div class="input">
@@ -53,8 +53,8 @@
         alert("মেসেজ লিখো আগে!");
         return;
       }
-      // স্পেস, +, - ছাড়া নাম্বার দিতে হবে
-      const phoneNumber = "8801812054895";
+      // country code + number, কোন স্পেস/ড্যাশ/প্লাস ছাড়া
+      const phoneNumber = "xxxxxxxxxxx"; // সঠিক নাম্বার এখানে বসাও
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     });

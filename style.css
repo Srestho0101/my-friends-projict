@@ -9,34 +9,31 @@ nav {
 }
 
 nav a {
-      background-color: #1a1a2e
+  background-color: #1a1a2e;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px; 
+  flex-wrap: nowrap; 
+  white-space: nowrap; 
+  overflow-x: auto;
+}
 
-;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: center;
-      gap: 25px; 
-      flex-wrap: nowrap; 
-      white-space: nowrap; 
-      overflow-x: auto;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  white-space: nowrap; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  flex-shrink: 0; 
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 16px;
-      transition: color 0.3s ease;
-      white-space: nowrap; 
-      padding: 5px 10px;
-      border-radius: 4px;
-      flex-shrink: 0; 
-      }
-
-    nav a:hover {
-      color: #ffdd57;
-      background-color: rgba(255, 221, 87, 0.2);
-    }
+nav a:hover {
+  color: #ffdd57;
+  background-color: rgba(255, 221, 87, 0.2);
 }
 
 nav a:hover {

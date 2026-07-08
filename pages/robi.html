@@ -4,39 +4,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>our friend circle</title>
-  <link rel="stylesheet" href="fishan.css" />
+  <link rel="stylesheet" href="../css/robi.css" />
 </head>
 <body>
   <nav>
-    <a href="home-page.html">Home</a>
-    <a href="index.html">My Friends</a>
-    <a href="About-me.html">My info</a>
+    <a href="../home-page.html">Home</a>
+    <a href="../index.html">My Friends</a>
+    <a href="../About-me.html">My info</a>
   </nav>
 
   <div class="shoan">
     <div class="shoan-img">
-      <img src="opu.jpg" id="shoan-img" alt="Opu" />
+      <img src="../photos/robi.jpg" id="shoan-img" alt="Robi" />
     </div>
 
     <div class="links">
-      <a href="https://www.facebook.com/share/1BDxTiqo5A/">
+      <a href="https://www.facebook.com/share/17xG6wdhWx/">
         <button>Facebook ID ></button>
       </a>
     </div>
 
     <div class="typing-container">
       <p>
-        My name is Opu.I love football and Free Fire. I am fast and skilled on
-        the football field. In Free Fire, I always try my best to win. Playing
-        both keeps me happy and active.
+        My name is Robi. I love football and Free Fire. I am fast and skilled
+        on the football field. In Free Fire, I always try my best to win.
+        Playing both keeps me happy and active.
       </p>
     </div>
 
     <div class="contact">
-      <p>Name: Opu</p>
-      <p>Number: +88 01965081927</p>
-      <p>WhatsApp: +88 01965081927</p>
-      <p>Email: xxxxxxxxx@gmail.com</p>
+      <p>Name: Robi</p>
+      <p>Number: +880 xxxxxxx</p>
+      <p>WhatsApp: +880 xxxxxxx</p>
+      <p>Email: xxxxxxxx@gmail.com</p>
     </div>
 
     <div class="input">
@@ -48,12 +48,15 @@
   <script>
     document.getElementById("send").addEventListener("click", function () {
       const message = document.getElementById("int").value.trim();
+
       if (!message) {
         alert("মেসেজ লিখো আগে!");
         return;
       }
-      // country code + number, no spaces, plus, dash
-      const phoneNumber = "8801965081927";
+
+      // স্পেস, +, - ছাড়া নাম্বার বসাও, উদাহরণঃ
+      const phoneNumber = "880xxxxxxx"; // country code + number, কোন স্পেস/ড্যাশ/প্লাস ছাড়া
+
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
         message
       )}`;
